@@ -1,5 +1,5 @@
 # quick_base_temp_auth
-A repository to show QuickBase developers how to use JavaScript to acquire and implement temporary authorization tokens in code pages.  
+A repository to show QuickBase developers how to use JavaScript to acquire and implement temporary authorization tokens in code pages. 
 
 There seems to not be much awareness in the QB community on how to easily use Temp Auth tokens. 
 The App token approach doesn't allow for child table access. 
@@ -14,3 +14,8 @@ Please have a look and refine my code if you find a cleaner approach.
 Pre-requsites: 
 - The developer must have a QB account.
 - The developer must have an App Token. https://helpv2.quickbase.com/hc/en-us/articles/4570313549972-App-tokens 
+
+For me this code has successfully:
+- Obtained 4 Temp Auth codes
+- Used them to fire 4 API calls 
+- Retrieve required data and used it to manipulate HTML elements. 
